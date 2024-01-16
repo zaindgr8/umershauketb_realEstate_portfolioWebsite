@@ -78,7 +78,7 @@ export default function Footer() {
                 </p>
                 <Link className="email-link d-block fw-medium mb-1" href="#">
                   <i className="text-white fa-solid fa-phone me-2"></i>
-                  <span className="text-white">(+971) 521 307 749</span>
+                  <span className="text-white">(+971)585 145 243</span>
                 </Link>
                 <Link
                   className="text-white email-link d-block fw-medium"
