@@ -1,6 +1,9 @@
-import Link from 'next/link';
 import React from 'react';
 import FeaturesPropertiesData from "../data/features-properties.json"
+import { FaFacebookF } from "react-icons/fa6";
+import { PiInstagramLogoBold } from "react-icons/pi";
+import Link from "next/link"
+
 export default async function FeaturesProperties() {
   return (
     <>
@@ -18,7 +21,7 @@ export default async function FeaturesProperties() {
                   data-aos-delay={300}
                   key=""
                 >
-                  <Link href="property-details-2" className="#" />
+                  <Link href="" className="#" />
                   <div className="card-body p-0">
                     <div className="row g-0">
                       <div className="col-lg-5 col-md-6 col-xl-3 d-flex flex-column">
@@ -41,12 +44,24 @@ export default async function FeaturesProperties() {
                             <div className="fs-16">
                               <span>CEO/ CHAIRMAN at CRESCO Real Estate</span>
                             </div>
-                            <div className="mt-3">
+                            <div className="mt-1">
                               {" "}
                               He is a dynamic entrepreneur known for fearlessly
                               exploring new opportunities. As the Founder and
                               CEO of diverse ventures, he brings innovation and
                               visionary leadership to the forefront.
+                            </div>
+                            <div className="flex items-center text-gray-900 gap-x-5 mt-2 ">
+                              <span className="">
+                                <Link href="">
+                                  <FaFacebookF />
+                                </Link>
+                              </span>
+                              <span>
+                                <Link href="">
+                                  <PiInstagramLogoBold />
+                                </Link>
+                              </span>
                             </div>
                           </div>
                         </div>

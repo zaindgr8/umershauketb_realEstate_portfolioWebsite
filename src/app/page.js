@@ -10,6 +10,7 @@ import SectionHeader from "@/components/section-header";
 import Regions from "@/components/Regions";
 import Testimonial from "../data/testimonial.json";
 import TopSection from "./umerb/TopSection";
+import Thirdsection from "./umerb/thirdsection";
 
 export default function HomeTwo() {
   return (
@@ -17,7 +18,7 @@ export default function HomeTwo() {
       <main>
         <>
           <TopSection />
-          <ProfileCard />
+          <Thirdsection/>
         </>
       </main>
     </Layout>
