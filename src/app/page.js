@@ -10,7 +10,8 @@ import SectionHeader from "@/components/section-header";
 import Regions from "@/components/Regions";
 import Testimonial from "../data/testimonial.json";
 import TopSection from "./umerb/TopSection";
-import Thirdsection from "./umerb/thirdsection";
+import SecondSection from "./umerb/thirdsection";
+import ThirdSection from "@/components/magnific-pop-up-gallery";
 
 export default function HomeTwo() {
   return (
@@ -18,7 +19,10 @@ export default function HomeTwo() {
       <main>
         <>
           <TopSection />
-          <Thirdsection/>
+          <SecondSection />
+          <div className="px-2">
+            <ThirdSection />
+          </div>
         </>
       </main>
     </Layout>

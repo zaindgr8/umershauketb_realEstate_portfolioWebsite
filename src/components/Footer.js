@@ -17,12 +17,12 @@ export default function Footer() {
         <div className="container pt-4">
           {/* Start Card Contact */}
           <div
-            className="card-contact bg-blue-900 mb-4 mt-5 py-5 px-4 px-md-5 position-relative overflow-hidden rounded-3 shadow-lg"
+            className="card-contact bg-white text-gray-900 mb-4 mt-5 py-5 px-4 px-md-5 position-relative overflow-hidden rounded-3 shadow-lg"
             data-aos="fade-down"
           >
             <div className="row align-items-center position-relative z-1">
               <div className="col-md-10 col-lg-8 col-xl-6">
-                <h2 className="display-6 fw-bold text-capitalize text-white">
+                <h2 className="display-6 fw-bold text-capitalize ">
                   Excited about advancing your real estate skills? Reach out to
                   kickstart your coaching
                 </h2>
@@ -32,12 +32,12 @@ export default function Footer() {
                       type="button"
                       className=" btn-outline-default border-0"
                     >
-                      <i className="fas text-white mr-2 fa-mobile"></i>
-                      <span className="text-white">+971 585 145 243</span>
+                      <i className="fas  mr-2 fa-mobile"></i>
+                      <span className="">+971 58 514 5 243</span>
                     </button>
                   </div>
                   <div className="col-auto">
-                    <Link href="#" className="fs-17 l-spacing-1 text-white">
+                    <Link href="#" className="fs-17 l-spacing-1 ">
                       <i className="fas fa-envelope fs-15 mr-2"></i>
                       <span>umer@crescorealestate.ae</span>
                     </Link>
@@ -78,7 +78,7 @@ export default function Footer() {
                 </p>
                 <Link className="email-link d-block fw-medium mb-1" href="#">
                   <i className="text-white fa-solid fa-phone me-2"></i>
-                  <span className="text-white">(+971)585 145 243</span>
+                  <span className="text-white">(+971) 58 514 5243</span>
                 </Link>
                 <Link
                   className="text-white email-link d-block fw-medium"
