@@ -8,10 +8,10 @@ import ProfileCard from "@/components/feature-properties";
 import Layout from "@/components/Layout";
 import SectionHeader from "@/components/section-header";
 import Regions from "@/components/Regions";
-import Testimonial from "../data/testimonial.json";
 import TopSection from "./umerb/TopSection";
 import SecondSection from "./umerb/thirdsection";
 import ThirdSection from "@/components/magnific-pop-up-gallery";
+import Testimonial from "./umerb/Testimonial";
 
 export default function HomeTwo() {
   return (
@@ -23,6 +23,7 @@ export default function HomeTwo() {
           <div className="px-2">
             <ThirdSection />
           </div>
+          <Testimonial/>
         </>
       </main>
     </Layout>
