@@ -3102,14 +3102,14 @@ background: repeating-linear-gradient(-55deg, rgba(255, 255, 255, 0) .8px, gray 
 
 .post-block h2 a,
 .post-block .post-title_hover a {
-  color: #fff;
+  color: #222222;
   background-image: -o-linear-gradient(transparent calc(100% - 5px), rgba(255, 255, 255, 0.3) 3px);
   background-image: linear-gradient(transparent calc(100% - 5px), rgba(255, 255, 255, 0.3) 3px);
 }
 
 .post-block h2 a:hover,
 .post-block .post-title_hover a:hover {
-  color: #fff;
+  color: #222222;
 }
 
 /* Masonry Carousel ------------ */
@@ -3120,7 +3120,7 @@ background: repeating-linear-gradient(-55deg, rgba(255, 255, 255, 0) .8px, gray 
 
 .blog-carousel.owl-theme .owl-nav [class*="owl-"],
 .masonry-carousel.owl-theme .owl-nav [class*="owl-"] {
-  color: #fff;
+  color: white;
   padding: 4px 7px;
   display: inline-block;
   cursor: pointer;
@@ -3140,7 +3140,7 @@ background: repeating-linear-gradient(-55deg, rgba(255, 255, 255, 0) .8px, gray 
   border-radius: 0;
   line-height: 60px;
   margin: 0;
-  background-color: var(--bs-primary);
+  background-color: #222222;
   -webkit-transition-duration: 0.5s;
   -webkit-transition-timing-function: linear;
 }

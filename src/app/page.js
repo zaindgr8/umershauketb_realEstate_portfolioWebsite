@@ -12,6 +12,7 @@ import TopSection from "./umerb/TopSection";
 import SecondSection from "./umerb/thirdsection";
 import ThirdSection from "@/components/magnific-pop-up-gallery";
 import Testimonial from "./umerb/Testimonial";
+import Blogsection from "./umerb/blogsection";
 
 export default function HomeTwo() {
   return (
@@ -24,6 +25,7 @@ export default function HomeTwo() {
             <ThirdSection />
           </div>
           <Testimonial/>
+          <Blogsection/>
         </>
       </main>
     </Layout>

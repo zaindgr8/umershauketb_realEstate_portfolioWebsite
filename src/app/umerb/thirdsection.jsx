@@ -51,14 +51,14 @@ const Thirdsection = () => {
                   >
                     <div className="rounded-4 overflow-hidden position-relative">
                       <img
-                        src="assets/img/about/ubc2.jpeg"
+                        src="assets/img/about/s3.JPG"
                         className="img-fluid position-relative image-parallax z-1"
                         alt=""
                       />
                     </div>
                   </div>
                   <img
-                    src="assets/img/about/ubc5.jpg"
+                    src="assets/img/about/s2.JPG"
                     className="img-fluid rounded-4 mt-4 shadow card-asset-home z-1"
                     alt=""
                     data-aos="zoom-in"
@@ -75,7 +75,7 @@ const Thirdsection = () => {
                   data-aos-delay={200}
                 >
                   <img
-                    src="assets/img/about/ubc3.jpeg"
+                    src="assets/img/about/s1.JPG"
                     className="img-fluid rounded-4 image-parallax"
                     alt=""
                   />
