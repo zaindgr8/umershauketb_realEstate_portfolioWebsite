@@ -2904,7 +2904,7 @@ textarea.form-control {
 .member-social {
   padding: 7px;
   left: -4em;
-  background-color: var(--bs-primary);
+  background-color: #212121;
   -webkit-transition: all .2s cubic-bezier(.77, 0, .175, 1);
   -o-transition: all .2s cubic-bezier(.77, 0, .175, 1);
   transition: all .2s cubic-bezier(.77, 0, .175, 1);
