@@ -5,7 +5,8 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { PiFacebookLogoFill } from "react-icons/pi";
 import { BiLogoInstagramAlt } from "react-icons/bi";
-import { AiFillYoutube } from "react-icons/ai";
+import { FaLinkedin } from "react-icons/fa6";
+
 const links = [
     { href: '/', text: 'Home 1' },
     { href: '/home-2', text: 'Home 2' },
@@ -67,9 +68,21 @@ export default function Header() {
                 </Link>
               </div>
               <div className="col-md-8 col-lg-9 col-xl-8 d-flex justify-content-end align-items-center">
-                <PiFacebookLogoFill className="w-[4vh] h-[4vh] ms-4" />
-                <BiLogoInstagramAlt className="w-[4vh] h-[4vh] ms-4" />
-                <AiFillYoutube className="w-[4vh] h-[4vh] ms-4" />
+                <Link target="_blank" href="https://www.facebook.com/UMMERRR">
+                  <PiFacebookLogoFill className="w-[4vh] h-[4vh] ms-4" />
+                </Link>
+                <Link
+                  target="_blank"
+                  href="https://www.instagram.com/umershauket_786/"
+                >
+                  <BiLogoInstagramAlt className="w-[4vh] h-[4vh] ms-4" />
+                </Link>
+                <Link
+                  target="_blank"
+                  href="https://www.linkedin.com/in/umer-shauket-918a1a56/"
+                >
+                  <FaLinkedin className="w-[4vh] h-[4vh] ms-4" />
+                </Link>
               </div>
             </div>
           </div>
@@ -122,7 +135,7 @@ export default function Header() {
                   {/* End Collapse Close Button */}
                 </div>
                 {/* End Navbar Collapse Header */}
-                <ul className="navbar-nav">
+                {/* <ul className="navbar-nav">
                   <li className="nav-item dropdown">
                     <Link className="nav-link" href="#" role="button">
                       Home
@@ -138,15 +151,13 @@ export default function Header() {
                       Contact
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
               {/*  /. End Navbar Collapse */}
               <div className="d-flex gap-1 ms-lg-5">
                 {/* Start Cart Button */}
                 <Link
                   href="/"
-                  data-bs-toggle="modal"
-                  data-bs-target="#cartEmpty"
                   className="align-items-center btn cart-button d-none d-xl-flex ms-2 ms-lg-0"
                 >
                   <span className="ms-2 text-gray-500 text-md">
@@ -203,9 +214,6 @@ export default function Header() {
                   data-bs-dismiss="modal"
                   aria-label="Close"
                 />
-              </div>
-              <div className="modal-body">
-                <p className="py-5 text-center">No items found.</p>
               </div>
             </div>
           </div>

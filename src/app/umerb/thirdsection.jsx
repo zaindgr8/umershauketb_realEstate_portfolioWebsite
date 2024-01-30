@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { BsInstagram } from "react-icons/bs";
-import { FaFacebookF } from "react-icons/fa6";
-import { TfiLinkedin } from "react-icons/tfi";
+import { PiFacebookLogoFill } from "react-icons/pi";
+import { BiLogoInstagramAlt } from "react-icons/bi";
+import { FaLinkedin } from "react-icons/fa6";
 
 
 const Thirdsection = () => {
@@ -25,14 +25,20 @@ const Thirdsection = () => {
               both companies to new heights in their respective industries.
             </p>
             <span className="flex gap-x-4 text-gray-900">
-              <Link href="">
-                <BsInstagram />
+              <Link target="_blank" href="https://www.facebook.com/UMMERRR">
+                <PiFacebookLogoFill className="w-[4vh] h-[4vh] ms-4" />
               </Link>
-              <Link href="">
-                <FaFacebookF />
+              <Link
+                target="_blank"
+                href="https://www.instagram.com/umershauket_786/"
+              >
+                <BiLogoInstagramAlt className="w-[4vh] h-[4vh] ms-4" />
               </Link>
-              <Link href="">
-                <TfiLinkedin />
+              <Link
+                target="_blank"
+                href="https://www.linkedin.com/in/umer-shauket-918a1a56/"
+              >
+                <FaLinkedin className="w-[4vh] h-[4vh] ms-4" />
               </Link>
             </span>
             {/* /.End Text */}

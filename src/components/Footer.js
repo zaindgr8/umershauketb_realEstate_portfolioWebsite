@@ -1,6 +1,6 @@
 import Link from "next/link";
 import ScrollTop from "./scroll-top";
-import { MdLocationOn } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { SiWhatsapp } from "react-icons/si";
@@ -137,7 +137,8 @@ export default function Footer() {
               <ul className="list-unstyled social-icon">
                 <li>
                   <Link
-                    href="#"
+                    href="https://www.instagram.com/umershauket_786/"
+                    target="_blank"
                     className="align-items-center d-flex text-white flex gap-x-3"
                   >
                     <FaInstagram className="text-white text-2xl" />
@@ -147,16 +148,18 @@ export default function Footer() {
 
                 <li>
                   <Link
-                    href="#"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/umer-shauket-918a1a56/"
                     className="align-items-center text-white d-flex flex gap-x-3"
                   >
-                    <AiOutlineYoutube className="text-white text-2xl" />
-                    YouTube
+                    <FaLinkedin className="text-white text-2xl" />
+                    Linked In
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href={`https://wa.me/${+971585145243}`}
+                    target="_blank"
                     className="align-items-center text-white d-flex gap-x-3"
                   >
                     <SiWhatsapp className="text-white text-2xl" />
