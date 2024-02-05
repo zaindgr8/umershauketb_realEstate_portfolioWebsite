@@ -6,7 +6,7 @@ const TopSection = () => {
     <>
       <div className="hero-header hero-header__one align-items-center background-image d-flex position-relative">
         <img
-          src="assets/img/header/v1.gif"
+          src="assets/img/header/ub.gif"
           alt=""
           className="h-100 object-fit-cover position-absolute w-100 top-0 left-0"
         />
