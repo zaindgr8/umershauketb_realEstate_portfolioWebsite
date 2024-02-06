@@ -55,7 +55,7 @@ const PopUpImageGallery = () => {
             >
               {/* Masonry Image */}
               <img
-                src="assets/img/property-details/cvr4.jpg"
+                src="assets/img/property-details/cvr4.png"
                 alt=""
                 className="bottom-0 h-100 object-fit-cover position-absolute start-0 top-0 w-100"
               />
