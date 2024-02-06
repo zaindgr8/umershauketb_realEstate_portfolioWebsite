@@ -8,7 +8,7 @@ import ImportBs from './importBs';
 
 const inter = Inter_Tight({ subsets: ['latin'] })
 export const metadata = {
-  title: "Umer Shauket - Chairman CRESCO Real Estate",
+  title: "Umer Shauket - CEO CRESCO Real Estate",
   description:
     "Umer Shauket is the driving force behind CRESCO Real Estate, setting the strategic direction and leading the team toward unparalleled success.",
   icons: {

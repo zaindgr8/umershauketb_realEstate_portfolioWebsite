@@ -127,7 +127,7 @@ const Team = () => {
                   </li>
                 </ul>
                 <div className="bg-dark bottom-1 end-1 position-absolute px-3 py-1 rounded-5 team-description-wrap text-white z-1">
-                  Sales Head
+                  Assistant Manager
                 </div>
               </div>
               {/* Start Avatar Info */}
