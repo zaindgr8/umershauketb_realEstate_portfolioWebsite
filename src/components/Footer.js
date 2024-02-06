@@ -65,7 +65,7 @@ export default function Footer() {
                 <div className=" mb-3 d-inline-block">
                   {/* Start Qr Code Image */}
                   <img
-                    src="assets/img/ub5.jpeg"
+                    src="assets/img/ub3.jpeg"
                     className="mb-0 object-cover h-[20vh] rounded-lg"
                     height="146"
                     width="146"

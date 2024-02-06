@@ -46,17 +46,26 @@ const Team = () => {
                 </div>
                 <ul className="align-items-center d-flex flex-column fs-21 gap-2 justify-content-center list-unstyled mb-0 member-social position-absolute">
                   <li>
-                    <Link href="#">
+                    <Link
+                      href="https://www.facebook.com/azim.awan16"
+                      target="_blank"
+                    >
                       <i className="fab fa-facebook-f" />
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
-                      <i className="fab fa-twitter" />
+                    <Link
+                      href="https://www.instagram.com/azamcreates/"
+                      target="_blank"
+                    >
+                      <i className="fab fa-instagram" />
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link
+                      href="https://www.linkedin.com/in/muhammad-tariq-622211152/"
+                      target="_blank"
+                    >
                       <i className="fab fa-linkedin-in" />
                     </Link>
                   </li>
@@ -86,24 +95,33 @@ const Team = () => {
               <div className="member-header overflow-hidden position-relative rounded-4">
                 <div className="w-full h-[45vh] overflow-hidden">
                   <img
-                    src="assets/img/avatar/gli.jpg"
+                    src="assets/img/avatar/gulli.jpg"
                     className="w-full h-full object-cover"
                     alt=""
                   />
                 </div>
                 <ul className="align-items-center d-flex flex-column fs-21 gap-2 justify-content-center list-unstyled mb-0 member-social position-absolute">
                   <li>
-                    <Link href="#">
+                    <Link
+                      href="https://www.facebook.com/gulraiz.naveed"
+                      target="_blank"
+                    >
                       <i className="fab fa-facebook-f" />
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
-                      <i className="fab fa-twitter" />
+                    <Link
+                      href="https://www.instagram.com/therealtaholic/"
+                      target="_blank"
+                    >
+                      <i className="fab fa-instagram" />
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link
+                      href="https://www.linkedin.com/in/gulraiz-naveed-043655230/"
+                      target="_blank"
+                    >
                       <i className="fab fa-linkedin-in" />
                     </Link>
                   </li>
@@ -139,17 +157,26 @@ const Team = () => {
                 </div>
                 <ul className="align-items-center d-flex flex-column fs-21 gap-2 justify-content-center list-unstyled mb-0 member-social position-absolute">
                   <li>
-                    <Link href="#">
+                    <Link
+                      href="https://www.facebook.com/profile.php?id=100006375667786"
+                      target="_blank"
+                    >
                       <i className="fab fa-facebook-f" />
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
-                      <i className="fab fa-twitter" />
+                    <Link
+                      href="https://www.instagram.com/pearllrealestate/"
+                      target="_blank"
+                    >
+                      <i className="fab fa-instagram" />
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link
+                      href="https://www.linkedin.com/in/margault-almeras-60785515a/"
+                      target="_blank"
+                    >
                       <i className="fab fa-linkedin-in" />
                     </Link>
                   </li>
@@ -176,24 +203,33 @@ const Team = () => {
               <div className="member-header overflow-hidden position-relative rounded-4">
                 <div className="w-full h-[45vh] overflow-hidden">
                   <img
-                    src="assets/img/avatar/shmr.png"
+                    src="assets/img/avatar/waled.jpeg"
                     className="w-full h-full object-cover"
                     alt=""
                   />
                 </div>
                 <ul className="align-items-center d-flex flex-column fs-21 gap-2 justify-content-center list-unstyled mb-0 member-social position-absolute">
                   <li>
-                    <Link href="#">
+                    <Link
+                      href="https://www.facebook.com/waleedkhanyousafzai"
+                      target="_blank"
+                    >
                       <i className="fab fa-facebook-f" />
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
-                      <i className="fab fa-twitter" />
+                    <Link
+                      href="https://www.instagram.com/reltaholic/"
+                      target="_blank"
+                    >
+                      <i className="fab fa-instagram" />
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link
+                      href="https://www.linkedin.com/company/crescorealestatellc/"
+                      target="_blank"
+                    >
                       <i className="fab fa-linkedin-in" />
                     </Link>
                   </li>
@@ -205,7 +241,7 @@ const Team = () => {
               {/* Start Avatar Info */}
               <div className="member-info text-center mt-3">
                 <h4 className="mb-2 member-name text-truncate">
-                  Malik Shahmeer
+                  Waleed Khan Yousafzai
                 </h4>
                 <div>
                   dedicated to delivering exceptional client experiences and

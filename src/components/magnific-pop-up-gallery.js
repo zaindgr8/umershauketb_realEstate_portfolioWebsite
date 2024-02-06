@@ -55,7 +55,7 @@ const PopUpImageGallery = () => {
             >
               {/* Masonry Image */}
               <img
-                src="assets/img/property-details/cvr1.jpg"
+                src="assets/img/property-details/cvr4.jpg"
                 alt=""
                 className="bottom-0 h-100 object-fit-cover position-absolute start-0 top-0 w-100"
               />
@@ -68,7 +68,7 @@ const PopUpImageGallery = () => {
             >
               {/* Masonry Image */}
               <img
-                src="assets/img/property-details/cvr3.jpg"
+                src="assets/img/property-details/cvr6.jpg"
                 alt=""
                 className="bottom-0 h-100 object-fit-cover position-absolute start-0 top-0 w-100"
               />
@@ -79,7 +79,7 @@ const PopUpImageGallery = () => {
             >
               {/* Masonry Image */}
               <img
-                src="assets/img/property-details/cvr2.jpg"
+                src="assets/img/property-details/cvr5.jpg"
                 alt=""
                 className="bottom-0 h-100 object-fit-cover position-absolute start-0 top-0 w-100"
               />

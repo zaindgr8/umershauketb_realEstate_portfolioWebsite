@@ -95,11 +95,11 @@ const Testimonial1 = () => {
                     <div className="d-flex align-items-center">
                       <div className="flex-shrink-0">
                         <img
-                          src="assets/img/avatar/01.jpg"
+                          src={testimonial.img}
                           alt=""
-                          className="rounded-circle"
-                          height={60}
-                          width={60}
+                          className="rounded-full mt-2"
+                          height={30}
+                          width={30}
                         />
                       </div>
                       <div className="flex-grow-1 ms-3">

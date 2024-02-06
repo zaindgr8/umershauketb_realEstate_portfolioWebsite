@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img":"assets/img/avatar/01.jpg",
+        "img":"assets/img/avatar/ruswomen.jpg",
         "ratings": "(5/5)",
         "title": "Exceptional Real Estate Expertise!",
         "description":"Mr. Umer Shaukat's profound knowledge and insight into the real estate market truly set him apart. His guidance has been invaluable in making informed decisions.",
@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "img":"assets/img/avatar/02.jpg",
+        "img":"assets/img/avatar/rusman.jpg",
         "ratings": "(5/5)",
         "title": "Global Excellence in Service",
         "description":"Having Mr. Umer Shaukat assist with our real estate needs was a game-changer. His global perspective and unmatched service have made him our go-to expert.",
@@ -21,7 +21,7 @@
     },
     {
         "id": 3,
-        "img":"assets/img/avatar/03.jpg",
+        "img":"assets/img/avatar/Pakwomen.jpg",
         "ratings": "(5/5)",
         "title": "Transformative Leadership Coaching",
         "description":"Umer Shaukat's leadership coaching has been transformative. His ability to mentor and guide individuals in both sales and leadership is unparalleled.",
@@ -31,7 +31,7 @@
     },
     {
         "id": 4,
-        "img":"assets/img/avatar/04.jpg",
+        "img":"assets/img/avatar/Pakmen.jpg",
         "ratings": "(5/5)",
         "title": "Top-tier Real Estate Professional",
         "description":"Working with Mr. Umer Shaukat was a pleasure. His professionalism, attention to detail, and extensive industry knowledge make him a top-tier real estate professional.",
@@ -41,7 +41,7 @@
     },
     {
         "id": 5,
-        "img":"assets/img/avatar/05.jpg",
+        "img":"assets/img/avatar/arabwomen.jpg",
         "ratings": "(5/5)",
         "title": "A Trusted Team Leader",
         "description":"Under Mr. Umer Shaukat's leadership, his team of agents operates seamlessly. His leadership style fosters a culture of excellence, and the results speak for themselves.",
@@ -51,7 +51,7 @@
     },
     {
         "id": 6,
-        "img":"assets/img/avatar/06.jpg",
+        "img":"assets/img/avatar/arabman1.jpg",
         "ratings": "(5/5)",
         "title": "Global Real Estate Visionary",
         "description":"Mr. Umer Shaukat's global vision in the real estate industry is truly commendable. His insights and strategies have not only benefited clients but have also elevated the standards of service in the market.",
