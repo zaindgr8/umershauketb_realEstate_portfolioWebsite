@@ -3120,7 +3120,7 @@ background: repeating-linear-gradient(-55deg, rgba(255, 255, 255, 0) .8px, gray 
 
 .blog-carousel.owl-theme .owl-nav [class*="owl-"],
 .masonry-carousel.owl-theme .owl-nav [class*="owl-"] {
-  color: white;
+  color: black;
   padding: 4px 7px;
   display: inline-block;
   cursor: pointer;
@@ -3140,7 +3140,7 @@ background: repeating-linear-gradient(-55deg, rgba(255, 255, 255, 0) .8px, gray 
   border-radius: 0;
   line-height: 60px;
   margin: 0;
-  background-color: #222222;
+  background-color: white;
   -webkit-transition-duration: 0.5s;
   -webkit-transition-timing-function: linear;
 }
