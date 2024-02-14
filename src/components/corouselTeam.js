@@ -286,7 +286,8 @@ const Carousel = () => {
         </div>
         {/* /.End Avatar Info */}
       </div>
-      {/* /.End Grid Post */} {/* Start Grid Post */}
+      {/* /.End Grid Post */}
+      {/* Start Grid Post */}
       <div className="team-member">
         <div className="member-header overflow-hidden position-relative rounded-4">
           <div className="w-full h-[45vh] overflow-hidden">
@@ -306,7 +307,10 @@ const Carousel = () => {
               </Link> */}
             </li>
             <li>
-              <Link href="@vruti_cresco" target="_blank">
+              <Link
+                href="https://www.instagram.com/vruti_cresco/"
+                target="_blank"
+              >
                 <i className="fab fa-instagram" />
               </Link>
             </li>
@@ -329,6 +333,108 @@ const Carousel = () => {
           <div>
             From managing schedules to handling inquiries, she streamline
             administrative tasks.
+          </div>
+        </div>
+        {/* /.End Avatar Info */}
+      </div>
+      {/* /.End Grid Post */}
+      {/* Start Grid Post */}
+      <div className="team-member">
+        <div className="member-header overflow-hidden position-relative rounded-4">
+          <div className="w-full h-[45vh] overflow-hidden">
+            <img
+              src="assets/img/avatar/umer.jpg"
+              className="w-full h-full object-cover"
+              alt=""
+            />
+          </div>
+          <ul className="align-items-center d-flex flex-column fs-21 gap-2 justify-content-center list-unstyled mb-0 member-social position-absolute">
+            <li>
+              {/* <Link
+                href="https://www.facebook.com/waleedkhanyousafzai"
+                target="_blank"
+              >
+                <i className="fab fa-facebook-f" />
+              </Link> */}
+            </li>
+            <li>
+              <Link
+                href="https://www.instagram.com/omerakramrealtor/"
+                target="_blank"
+              >
+                <i className="fab fa-instagram" />
+              </Link>
+            </li>
+            <li>
+              {/* <Link
+                href="https://www.linkedin.com/in/vrutika-dhanak-69843a2b4/"
+                target="_blank"
+              >
+                <i className="fab fa-linkedin-in" />
+              </Link> */}
+            </li>
+          </ul>
+          <div className="bg-dark bottom-1 end-1 position-absolute px-3 py-1 rounded-5 team-description-wrap text-white z-1">
+            Sales Manager
+          </div>
+        </div>
+        {/* Start Avatar Info */}
+        <div className="member-info text-center mt-3">
+          <h4 className="mb-2 member-name text-truncate">Vrutika Dhanak</h4>
+          <div>
+            Whether you're a seasoned investor or a first-time buyer, he'll guide
+            you through every step with in-depth market knowledge.
+          </div>
+        </div>
+        {/* /.End Avatar Info */}
+      </div>
+      {/* /.End Grid Post */}
+      {/* Start Grid Post */}
+      <div className="team-member">
+        <div className="member-header overflow-hidden position-relative rounded-4">
+          <div className="w-full h-[45vh] overflow-hidden">
+            <img
+              src="assets/img/avatar/umeri.jpeg"
+              className="w-full h-full object-cover"
+              alt=""
+            />
+          </div>
+          <ul className="align-items-center d-flex flex-column fs-21 gap-2 justify-content-center list-unstyled mb-0 member-social position-absolute">
+            <li>
+              <Link
+                href="https://www.facebook.com/profile.php?id=100005960020710&sfnsn=wa"
+                target="_blank"
+              >
+                <i className="fab fa-facebook-f" />
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://www.instagram.com/omaraladheem?utm_source=qr&igsh=eTRzazljajFnY2hv"
+                target="_blank"
+              >
+                <i className="fab fa-instagram" />
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://www.linkedin.com/in/omar-aladheem-5748b498?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+              >
+                <i className="fab fa-linkedin-in" />
+              </Link>
+            </li>
+          </ul>
+          <div className="bg-dark bottom-1 end-1 position-absolute px-3 py-1 rounded-5 team-description-wrap text-white z-1">
+            Sales Executive
+          </div>
+        </div>
+        {/* Start Avatar Info */}
+        <div className="member-info text-center mt-3">
+          <h4 className="mb-2 member-name text-truncate">Omar Akram</h4>
+          <div>
+            Driven by a passion for connecting clients with their dream homes,
+            excels at understanding specific needs.
           </div>
         </div>
         {/* /.End Avatar Info */}
