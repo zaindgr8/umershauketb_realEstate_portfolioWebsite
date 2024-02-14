@@ -380,7 +380,7 @@ const Carousel = () => {
         </div>
         {/* Start Avatar Info */}
         <div className="member-info text-center mt-3">
-          <h4 className="mb-2 member-name text-truncate">Vrutika Dhanak</h4>
+          <h4 className="mb-2 member-name text-truncate">Omar Akram</h4>
           <div>
             Whether you're a seasoned investor or a first-time buyer, he'll guide
             you through every step with in-depth market knowledge.
@@ -431,7 +431,7 @@ const Carousel = () => {
         </div>
         {/* Start Avatar Info */}
         <div className="member-info text-center mt-3">
-          <h4 className="mb-2 member-name text-truncate">Omar Akram</h4>
+          <h4 className="mb-2 member-name text-truncate">Omar</h4>
           <div>
             Driven by a passion for connecting clients with their dream homes,
             excels at understanding specific needs.
