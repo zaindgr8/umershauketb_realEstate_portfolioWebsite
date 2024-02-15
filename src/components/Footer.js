@@ -26,21 +26,21 @@ export default function Footer() {
                   Excited about advancing your real estate skills? Reach out to
                   kickstart your coaching
                 </h2>
-                <div className="row g-4 align-items-center mt-1">
+                <div className="">
                   <div className="col-auto">
-                    <button
-                      type="button"
+                    <div
+                    
                       className=" btn-outline-default border-0"
                     >
                       <i className="fas  mr-2 fa-mobile"></i>
                       <span className="">+971 58 514 5 243</span>
-                    </button>
+                    </div>
                   </div>
                   <div className="col-auto">
-                    <Link href="#" className="fs-17 l-spacing-1 ">
+                    <div  className="fs-17 l-spacing-1 ">
                       <i className="fas fa-envelope fs-15 mr-2"></i>
                       <span>umer@crescorealestate.ae</span>
-                    </Link>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -76,64 +76,23 @@ export default function Footer() {
                 <p className="text-white">
                   Get in touch with me to discover more.
                 </p>
-                <Link className="email-link d-block fw-medium mb-1" href="#">
+                <div className="email-link d-block fw-medium mb-1">
                   <i className="text-white fa-solid fa-phone me-2"></i>
                   <span className="text-white">(+971) 58 514 5243</span>
-                </Link>
-                <Link
+                </div>
+                <div
                   className="text-white email-link d-block fw-medium"
-                  href="#"
                 >
                   <i className="fa-solid fa-envelope me-2"></i>
                   <span className="text-white">umer@crescorealestate.ae</span>
-                </Link>
+                </div>
               </div>
             </div>
             <div className="col-6 col-sm-6 col-md-6 col-lg-auto col-xl-2 py-3 py-md-5">
               <h3 className="fs-20 text-white fw-semibold link-title mb-3 position-relative">
-                Our Pages
-              </h3>
-              {/* /Start Footer Link  */}
-              <ul className="footer-link text-white list-unstyled menu mb-0">
-                <li className="mb-2">
-                  <Link href="" className="link text-white d-block">
-                    Home Page
-                  </Link>
-                </li>
-                <li className="mb-2">
-                  <Link href="" className="link text-white d-block">
-                    About Us
-                  </Link>
-                </li>
-                <li className="mb-2">
-                  <Link href="" className="link text-white d-block">
-                    Contact Us
-                  </Link>
-                </li>
-              </ul>
-              {/* /.End Footer Link  */}
-            </div>
-
-            <div className="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 py-3 py-md-5 d-lg-none d-xl-block">
-              <h3 className="fs-20 text-white fw-semibold link-title mb-3 position-relative">
-                Office Location
-              </h3>
-              {/* /Start Footer Link  */}
-
-              <ul className="footer-link list-unstyled menu mb-0">
-                <li className="mb-2">
-                  <Link href="" className="link text-white d-block">
-                    <p>CRESCO, Business Bay, Dubai</p>
-                  </Link>
-                </li>
-              </ul>
-              {/* /.End Footer Link */}
-            </div>
-            <div className="col-6 col-sm-4 col-md-4 col-lg col-xl-2 py-3 py-md-5">
-              <h3 className="fs-20 text-white fw-semibold link-title mb-3 position-relative">
                 Connect with us
               </h3>
-              {/* /Start Social Icon */}
+              {/* /Start Footer Link  */}
               <ul className="list-unstyled social-icon">
                 <li>
                   <Link
@@ -167,14 +126,32 @@ export default function Footer() {
                   </Link>
                 </li>
               </ul>
+              {/* /.End Footer Link  */}
+            </div>
+
+            <div className="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 py-3 py-md-5 d-lg-none d-xl-block">
+              <h3 className="fs-20 text-white fw-semibold link-title mb-3 position-relative">
+                Office Location
+              </h3>
+              {/* /Start Footer Link  */}
+
+              <ul className="list-unstyled menu mb-0">
+                <li className="mb-2">
+                  <div className="link text-white d-block">
+                    <p>Office 1005, 10th Floor, Sobha Ivory 2, Business Bay, Dubai</p>
+                  </div>
+                </li>
+              </ul>
+              {/* /.End Footer Link */}
+            </div>
+            <div className="col-6 col-sm-4 col-md-4 col-lg col-xl-2 py-3 py-md-5">
+              {/* /Start Social Icon */}
+
               {/* /.End Social Icon */}
             </div>
           </div>
           <hr className="mb-0 mt-4" />
           <div className="py-4">
-            {/* Start Sub Footer Nav */}
-
-            {/*  /. End Sub Footer Nav */}
             <div className="align-items-center row mb-2">
               {/* Start Copy Rights Text */}
               <div className="col-sm-auto copy text-sm text-white">
