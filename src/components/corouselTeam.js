@@ -89,7 +89,7 @@ const Carousel = () => {
         <div className="member-header overflow-hidden position-relative rounded-4">
           <div className="w-full h-[45vh] overflow-hidden">
             <img
-              src="assets/img/avatar/dua.jpeg"
+              src="assets/img/avatar/dua1.jpeg"
               className="w-full h-full object-cover"
               alt=""
             />
@@ -178,6 +178,54 @@ const Carousel = () => {
           <div>
             Driving results through strategic leadership and a passion for
             exceeding.
+          </div>
+        </div>
+        {/* /.End Avatar Info */}
+      </div>
+      {/* /.End Grid Post */}
+      {/* Start Grid Post */}
+      <div className="team-member">
+        <div className="member-header overflow-hidden position-relative rounded-4">
+          <div className="w-full h-[45vh] overflow-hidden">
+            <img
+              src="assets/img/avatar/ukhalifa.jpeg"
+              className="w-full h-full object-cover"
+              alt=""
+            />
+          </div>
+          <ul className="align-items-center d-flex flex-column fs-21 gap-2 justify-content-center list-unstyled mb-0 member-social position-absolute">
+            <li>
+              <Link href="https://www.facebook.com/osama.kan.1" target="_blank">
+                <i className="fab fa-facebook-f" />
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://www.instagram.com/real.usama.khan/"
+                target="_blank"
+              >
+                <i className="fab fa-instagram" />
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://www.linkedin.com/in/usama-khan-7557a5243/"
+                target="_blank"
+              >
+                <i className="fab fa-linkedin-in" />
+              </Link>
+            </li>
+          </ul>
+          <div className="bg-dark bottom-1 end-1 position-absolute px-3 py-1 rounded-5 team-description-wrap text-white z-1">
+            Sales Manager
+          </div>
+        </div>
+        {/* Start Avatar Info */}
+        <div className="member-info text-center mt-3">
+          <h4 className="mb-2 member-name text-truncate">Usama Khalifa</h4>
+          <div>
+            With a wealth of experience and a deep understanding of the market,
+            excels in guiding clients through every step.
           </div>
         </div>
         {/* /.End Avatar Info */}
@@ -401,16 +449,13 @@ const Carousel = () => {
           </div>
           <ul className="align-items-center d-flex flex-column fs-21 gap-2 justify-content-center list-unstyled mb-0 member-social position-absolute">
             <li>
-              <Link
-                href="https://www.facebook.com/profile.php?id=100005960020710&sfnsn=wa"
-                target="_blank"
-              >
+              <Link href="https://www.facebook.com/zaindgr8/" target="_blank">
                 <i className="fab fa-facebook-f" />
               </Link>
             </li>
             <li>
               <Link
-                href="https://www.instagram.com/omaraladheem?utm_source=qr&igsh=eTRzazljajFnY2hv"
+                href="https://www.instagram.com/zainulabideen0007/"
                 target="_blank"
               >
                 <i className="fab fa-instagram" />
@@ -418,7 +463,7 @@ const Carousel = () => {
             </li>
             <li>
               <Link
-                href="https://www.linkedin.com/in/omar-aladheem-5748b498?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                href="https://www.linkedin.com/in/zain-ul-abideen-baloch/"
                 target="_blank"
               >
                 <i className="fab fa-linkedin-in" />
@@ -505,30 +550,30 @@ const Carousel = () => {
             />
           </div>
           <ul className="align-items-center d-flex flex-column fs-21 gap-2 justify-content-center list-unstyled mb-0 member-social position-absolute">
-            <li>
+            {/* <li>
               <Link
                 href="https://www.facebook.com/profile.php?id=100005960020710&sfnsn=wa"
                 target="_blank"
               >
                 <i className="fab fa-facebook-f" />
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
-                href="https://www.instagram.com/omaraladheem?utm_source=qr&igsh=eTRzazljajFnY2hv"
+                href="https://www.instagram.com/malikshahmir3/"
                 target="_blank"
               >
                 <i className="fab fa-instagram" />
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href="https://www.linkedin.com/in/omar-aladheem-5748b498?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
               >
                 <i className="fab fa-linkedin-in" />
               </Link>
-            </li>
+            </li> */}
           </ul>
           <div className="bg-dark bottom-1 end-1 position-absolute px-3 py-1 rounded-5 team-description-wrap text-white z-1">
             Sales Executive
