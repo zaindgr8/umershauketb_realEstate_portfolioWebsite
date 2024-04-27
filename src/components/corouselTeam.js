@@ -40,7 +40,7 @@ const Carousel = () => {
         <div className="member-header overflow-hidden position-relative rounded-4">
           <div className="w-full h-[45vh] overflow-hidden">
             <img
-              src="assets/img/avatar/az4.jpeg"
+              src="assets/img/avatar/1.jpg"
               className="w-full h-full object-cover"
               alt=""
             />
@@ -89,7 +89,7 @@ const Carousel = () => {
         <div className="member-header overflow-hidden position-relative rounded-4">
           <div className="w-full h-[45vh] overflow-hidden">
             <img
-              src="assets/img/avatar/dua1.jpeg"
+              src="assets/img/avatar/6.jpg"
               className="w-full h-full object-cover"
               alt=""
             />
@@ -137,7 +137,7 @@ const Carousel = () => {
         <div className="member-header overflow-hidden position-relative rounded-4">
           <div className="w-full h-[45vh] overflow-hidden">
             <img
-              src="assets/img/avatar/gulli.jpg"
+              src="assets/img/avatar/7.jpg"
               className="w-full h-full object-cover"
               alt=""
             />
@@ -169,12 +169,12 @@ const Carousel = () => {
             </li>
           </ul>
           <div className="bg-dark bottom-1 end-1 position-absolute px-3 py-1 rounded-5 team-description-wrap text-white z-1">
-            Sales Manager
+            Sales Executive
           </div>
         </div>
         {/* Start Avatar Info */}
         <div className="member-info text-center mt-3">
-          <h4 className="mb-2 member-name text-truncate">Gulraiz Naveed</h4>
+          <h4 className="mb-2 member-name text-truncate">Osama Khalifa</h4>
           <div>
             Driving results through strategic leadership and a passion for
             exceeding.
@@ -183,60 +183,13 @@ const Carousel = () => {
         {/* /.End Avatar Info */}
       </div>
       {/* /.End Grid Post */}
+     
       {/* Start Grid Post */}
       <div className="team-member">
         <div className="member-header overflow-hidden position-relative rounded-4">
           <div className="w-full h-[45vh] overflow-hidden">
             <img
-              src="assets/img/avatar/ukhalifa.jpeg"
-              className="w-full h-full object-cover"
-              alt=""
-            />
-          </div>
-          <ul className="align-items-center d-flex flex-column fs-21 gap-2 justify-content-center list-unstyled mb-0 member-social position-absolute">
-            <li>
-              <Link href="https://www.facebook.com/osama.kan.1" target="_blank">
-                <i className="fab fa-facebook-f" />
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="https://www.instagram.com/real.usama.khan/"
-                target="_blank"
-              >
-                <i className="fab fa-instagram" />
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="https://www.linkedin.com/in/usama-khan-7557a5243/"
-                target="_blank"
-              >
-                <i className="fab fa-linkedin-in" />
-              </Link>
-            </li>
-          </ul>
-          <div className="bg-dark bottom-1 end-1 position-absolute px-3 py-1 rounded-5 team-description-wrap text-white z-1">
-            Sales Manager
-          </div>
-        </div>
-        {/* Start Avatar Info */}
-        <div className="member-info text-center mt-3">
-          <h4 className="mb-2 member-name text-truncate">Usama Khalifa</h4>
-          <div>
-            With a wealth of experience and a deep understanding of the market,
-            excels in guiding clients through every step.
-          </div>
-        </div>
-        {/* /.End Avatar Info */}
-      </div>
-      {/* /.End Grid Post */}
-      {/* Start Grid Post */}
-      <div className="team-member">
-        <div className="member-header overflow-hidden position-relative rounded-4">
-          <div className="w-full h-[45vh] overflow-hidden">
-            <img
-              src="assets/img/avatar/mrgo.png"
+              src="assets/img/avatar/2.jpg"
               className="h-full w-full object-cover"
               alt=""
             />
@@ -273,7 +226,7 @@ const Carousel = () => {
         </div>
         {/* Start Avatar Info */}
         <div className="member-info text-center mt-3">
-          <h4 className="mb-2 member-name text-truncate">Margo Pearl</h4>
+          <h4 className="mb-2 member-name text-truncate">Sabrine Touati</h4>
           <div>
             navigating clients through the exciting world of pre-construction
             real estate.
@@ -287,7 +240,7 @@ const Carousel = () => {
         <div className="member-header overflow-hidden position-relative rounded-4">
           <div className="w-full h-[45vh] overflow-hidden">
             <img
-              src="assets/img/avatar/waled.jpeg"
+              src="assets/img/avatar/5.jpg"
               className="w-full h-full object-cover"
               alt=""
             />
@@ -340,7 +293,7 @@ const Carousel = () => {
         <div className="member-header overflow-hidden position-relative rounded-4">
           <div className="w-full h-[45vh] overflow-hidden">
             <img
-              src="assets/img/avatar/vrutika.jpeg"
+              src="assets/img/avatar/8.jpg"
               className="w-full h-full object-cover"
               alt=""
             />
@@ -372,12 +325,12 @@ const Carousel = () => {
             </li>
           </ul>
           <div className="bg-dark bottom-1 end-1 position-absolute px-3 py-1 rounded-5 team-description-wrap text-white z-1">
-            Administration
+            Sales Executive
           </div>
         </div>
         {/* Start Avatar Info */}
         <div className="member-info text-center mt-3">
-          <h4 className="mb-2 member-name text-truncate">Vrutika Dhanak</h4>
+          <h4 className="mb-2 member-name text-truncate">Shifa</h4>
           <div>
             From managing schedules to handling inquiries, she streamline
             administrative tasks.
@@ -488,57 +441,7 @@ const Carousel = () => {
         {/* /.End Avatar Info */}
       </div>
       {/* /.End Grid Post */}
-      {/* Start Grid Post */}
-      <div className="team-member">
-        <div className="member-header overflow-hidden position-relative rounded-4">
-          <div className="w-full h-[45vh] overflow-hidden">
-            <img
-              src="assets/img/avatar/umer2.png"
-              className="w-full h-full object-cover"
-              alt=""
-            />
-          </div>
-          <ul className="align-items-center d-flex flex-column fs-21 gap-2 justify-content-center list-unstyled mb-0 member-social position-absolute">
-            <li>
-              <Link
-                href="https://www.facebook.com/profile.php?id=100005960020710&sfnsn=wa"
-                target="_blank"
-              >
-                <i className="fab fa-facebook-f" />
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="https://www.instagram.com/omaraladheem?utm_source=qr&igsh=eTRzazljajFnY2hv"
-                target="_blank"
-              >
-                <i className="fab fa-instagram" />
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="https://www.linkedin.com/in/omar-aladheem-5748b498?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                target="_blank"
-              >
-                <i className="fab fa-linkedin-in" />
-              </Link>
-            </li>
-          </ul>
-          <div className="bg-dark bottom-1 end-1 position-absolute px-3 py-1 rounded-5 team-description-wrap text-white z-1">
-            Sales Executive
-          </div>
-        </div>
-        {/* Start Avatar Info */}
-        <div className="member-info text-center mt-3">
-          <h4 className="mb-2 member-name text-truncate">Omar</h4>
-          <div>
-            Driven by a passion for connecting clients with their dream homes,
-            excels at understanding specific needs.
-          </div>
-        </div>
-        {/* /.End Avatar Info */}
-      </div>
-      {/* /.End Grid Post */}
+ 
       {/* Start Grid Post */}
       <div className="team-member">
         <div className="member-header overflow-hidden position-relative rounded-4">
